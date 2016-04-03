@@ -1,0 +1,16 @@
+{
+  "name": "icloud-api",
+  "version": "1.0.0",
+  "description": "https://www.npmjs.com/package/icloud\r https://github.com/picklepete/pyicloud/blob/master/pyicloud/base.py\r https://github.com/matin/icloud/blob/master/icloud/icloud.py\r https://cdn.apple-cloudkit.com/ck/1/cloudkit.js",
+  "main": "lib/base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "bitwise": "^0.2.0"
+  },
+  "devDependencies": {}
+}
