@@ -1,10 +1,11 @@
 "use strict";
 
+var fs               = require('fs');
+
 var session_path     = "./session.json";
 var credentials_path = "./credentials.json";
 
 var iCloud = require('./');
-
 var client = new iCloud();
 
 
