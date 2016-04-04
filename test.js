@@ -44,7 +44,7 @@ var client = new iCloud();
       var media = medias[Object.keys(medias)[1]];
       client.photo.downloadMedia(media, function(err, stream){
         var dest = fs.createWriteStream(media.details.filename);
-        stream.pipe(dest).on("end", function(){
+        stream.pipe(dest).on("finish", function(){
           console.log("TADAAAA");
         });
       });
