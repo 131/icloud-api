@@ -41,7 +41,7 @@ var client = new iCloud();
     // list photo (&video) in an album
     client.photo.fetchMedias(album, function(err, medias){
 
-      var media = medias[Object.keys(medias)[0]];
+      var media = medias[Object.keys(medias)[1]];
       client.photo.downloadMedia(media, function(err, stream){
         var dest = fs.createWriteStream(media.details.filename);
         stream.pipe(dest).on("end", function(){

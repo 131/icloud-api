@@ -12,7 +12,7 @@
     "async": "^2.0.0-rc.2",
     "bitwise": "^0.2.0",
     "mout": "^1.0.0",
-    "nyks": "^2.13.0",
+    "nyks": "^2.14.0",
     "uclass": "^2.1.0"
   },
   "devDependencies": {}
