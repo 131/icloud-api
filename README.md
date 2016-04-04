@@ -31,6 +31,8 @@ client.contact.fetchAll(function(err, contacts){
 ```
 
 ## API : photo (&videos)
+
+```
 //list icloud photo albums
 client.photo.fetchAlbums(function(err, albums){
   //albums are like [{album:title}, {album:title}]
@@ -49,7 +51,6 @@ client.photo.downloadMedia(media, [quality = original], function(err, stream){
     console.log("TADAAAA");
   });
 });
-
 ```
 
 # Notes
