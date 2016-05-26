@@ -1,6 +1,6 @@
 {
   "name": "icloud-api",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "https://www.npmjs.com/package/icloud\r https://github.com/picklepete/pyicloud/blob/master/pyicloud/base.py\r https://github.com/matin/icloud/blob/master/icloud/icloud.py\r https://cdn.apple-cloudkit.com/ck/1/cloudkit.js",
   "main": "lib/base.js",
   "scripts": {
